@@ -1,0 +1,34 @@
+{
+  "mode": "batch",
+  "run_name": "demo_batch",
+  "unidock_binary": "unidock",
+  "receptor": "../../paired_batch/def.pdbqt",
+  "ligands": {
+    "directory": "../../paired_batch",
+    "pattern": "actives*.pdbqt"
+  },
+  "box": {
+    "center": {
+      "x": -36.0095,
+      "y": 25.6285,
+      "z": 67.492
+    },
+    "size": {
+      "x": 22.0,
+      "y": 22.0,
+      "z": 22.0
+    }
+  },
+  "search": {
+    "search_mode": "balance",
+    "exhaustiveness": 128,
+    "max_step": 20,
+    "num_modes": 1
+  },
+  "scoring": "vina",
+  "refine_step": 5,
+  "seed": 5,
+  "output": {
+    "dir": "../runs/demo_batch"
+  }
+}
