@@ -1,0 +1,17 @@
+{
+  "example_pair_a": {
+    "protein": "example/paired_batch/receptor_example_A.pdbqt",
+    "ligand": "example/paired_batch/ligand_example_A.pdbqt",
+    "ligand_config": "example/paired_batch/ligand_config.json"
+  },
+  "example_pair_b": {
+    "protein": "example/paired_batch/receptor_example_B.pdbqt",
+    "ligand": "example/paired_batch/ligand_example_B.pdbqt",
+    "ligand_config": "example/paired_batch/ligand_config.json"
+  },
+  "example_pair_c": {
+    "protein": "example/paired_batch/receptor_example_C.pdbqt",
+    "ligand": "example/paired_batch/ligand_example_C.pdbqt",
+    "ligand_config": "example/paired_batch/ligand_config.json"
+  }
+}
